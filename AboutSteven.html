@@ -44,14 +44,39 @@
           </div>
         </div>
       </nav>
+    
+    
+    <div class="container">
+      
+      
+    
       <h1>About Steven!(He/Him)</h1>
       <h2>Founder of the MoodMusicFoundation</h2>
       <img src="https://spu.edu/-/media/academics/college-of-arts-sciences/engineering-comp-sci/body-copy/success-stories/smith-ben-profile.ashx?iar=0&hash=9680CF83C3F656AE61B52287FDD64378">
      
       <p>I am currently a highschooler attending oakland tech, I've been interested in computer programming and music ever since I was little because I would always play video games and would also listen to music while I played them and whenever I did anything almost.</p>
+     
+   
+      <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+      style="background-color:#D94A38;width:120px;height:px;padding:40px;">
+      Mouse Over Me</div>
+      
+      <script>
+      function mOver(obj) {
+        obj.innerHTML = "Thank You";
+        obj.style.background = "cyan";
+      }
+      
+      function mOut(obj) {
+        obj.innerHTML = "Mouse Over Me";
+        obj.style.background = "red";
+      }
+      </script>
+
       
       <h2>3 fun facts about me</h2>
-
+        
+    </div> 
 <ol>
   <li>My favorite food is burritos</li>
   <li>My favorite superhero is Batman</li>
